@@ -12,7 +12,7 @@
     <meta name="author" content="Kacper Marszycki">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="icon" href="images/sneakers (2).png">
+    <link rel="icon" href="images/sneakersb.png">
      <link rel="stylesheet" href="style.css" type="text/css" />
      <script src="java.js"></script>
      <script
@@ -184,7 +184,7 @@ END;
         }
 
          ?>
-             <center style="margin-bottom: -15px; height: auto;">Recenzje:</center></br>
+             <center style="margin-top: 20px;margin-bottom: -15px; height: auto;">Recenzje:</center></br>
     <?php
 
                  $dobko = "SELECT * FROM komentarze WHERE id_butow='$_SESSION[id_butow]' ";
@@ -199,8 +199,47 @@ echo<<<END
                         <div class="uszys">
                             {$k['uzytkownik']}:
                         </div>
-                        <div class="opss">
-                        {$k['opis']}
+                        <div id="opss{$k['id']}" style="background-color: #f5f5f5;margin-bottom: 10px;">
+END;
+                    $comment = $k['opis'];
+                    if(strlen($comment)>500){
+                        $stringCut[$k['id']] = substr($comment, 0, 500);
+                        $wiecej[$k['id']] = "... <input type='submit' id='more' onclick='wiecej".$k['id']."()' name='dalej' style='background-color:#f5f5f5;color:black;padding:0;' value='Pokaż więcej'>";
+                        $stringmore[$k['id']] = substr($comment,500);
+                        $stringcutzw[$k['id']] = $stringCut[$k['id']].$wiecej[$k['id']];
+                        $stringall[$k['id']] = $stringCut[$k['id']].$stringmore[$k['id']]." <input type='submit' onclick='mniej".$k['id']."()' id='more' name='dalej' style='background-color:#f5f5f5;color:black;padding:0;' value='Pokaż mniej'>";
+                    
+echo<<<END
+    <script>
+    var stringcutzw{$k['id']} = 
+END;
+echo json_encode($stringcutzw[$k['id']]);
+echo<<<END
+;
+       var stringall{$k['id']} = 
+END;
+echo json_encode($stringall[$k['id']]);
+echo<<<END
+;
+       $('#opss{$k['id']}').html(stringcutzw{$k['id']});   
+
+        function mniej{$k['id']}(){
+        $('#opss{$k['id']}').html(stringcutzw{$k['id']});  
+        }
+
+       function wiecej{$k['id']}(){
+        $('#opss{$k['id']}').html(stringall{$k['id']});    
+        }
+    </script>
+END;
+      
+                    }
+                    else{
+                        echo $comment;
+                    }
+   
+
+echo<<<END
                         </div>
                         </div>
                         <div class="dater">
