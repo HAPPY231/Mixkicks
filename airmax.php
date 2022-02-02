@@ -59,7 +59,7 @@ END;
         <?php 
             include("connect.php");
             
-            $sql = "SELECT * FROM buty WHERE nazwa='Vapormax'";
+            $sql = "SELECT * FROM buty WHERE nazwa='Airmax'";
             $res = mysqli_query($dbc, $sql);
             $wszy = mysqli_fetch_all($res, MYSQLI_ASSOC);
             foreach($wszy as $r){
