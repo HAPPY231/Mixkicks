@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
@@ -789,4 +790,796 @@ h2 {
     background-image: url("slider/1.jpg");
     background-repeat: no-repeat; 
      background-size: 100% 100%;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+body {
+    font-size: 20px;
+    margin: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li,a,button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0089a9;
+}
+.zak{
+    width: 100%;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nvo{ 
+    width: 80%;
+    justify-content: space-beetwen;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rozp {  
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rozp li {
+    list-style: none;
+    display: inline-block;
+
+  
+}
+
+.rozp li a {
+    transition: all 0.3s ease 0s;
+}
+
+.rozp li a:hover {
+    color: #0089a9;
+}
+.rozp input[type="submit"]{
+    color: #edf0f1;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 2px solid rgb(184, 184, 184);
+    border-left: 2px solid rgb(184, 184, 184);
+    border-right: 2px solid rgb(184, 184, 184);
+    border-bottom:none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.rozp input[type="submit"]:hover{
+    color: #0089a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container{
+    
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+@media only screen and (max-width:750px){
+    .wy{
+        flex-direction: column;
+    }
+    .dwaaa{
+        flex-direction: column;
+    }
+    .wybma{     
+        padding-top: 0px;
+    }
+    .info{
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        clear: both;
+    }
+    .dwaaaa{
+        flex-direction: column;
+    }
+    .trzi{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .rdate{
+        margin: 10px;
+    }
+}
+.prod {
+    width: 300px;
+    height: 300px;  
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 55px;
+    margin-top: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.prod:hover {
+    transform: scale(0.9);
+    opacity: 0.6;
+}
+
+.nazwaa {
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cena {
+    text-align: center;
+    color: rgb(128, 123, 123);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.produkt {
+    width: 100%;
+    height: 500px;
+}
+
+.wy {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.info {
+    margin: 20px;
+    background-color: #f5f5f5;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px;
+  
+}
+.Zalog{
+    padding-top: 100px;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halo{
+    display: flex;
+    justify-content:space-around;
+}
+.loha{
+    width: 50%;
+}
+.Zalog input[type = "text"], .Zalog input[type = "password"], .Zalog input[type = "submit"]{
+    
+        padding: 9px 25px;
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        outline: none
+} 
+.container input[type = "text"], .container input[type = "password"], .container input[type = "submit"], .container input[type = "number"]{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+} 
+.regulav{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#submiot{
+    margin: 10px;
+}
+text,password:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.konto{
+    display: flex;
+}
+.koszyk{
+    margin-right: 10px;
+}
+.login{
+    cursor: pointer;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.login:hover{
+    background-color: #0089a9;
+}
+.container input[type = "submit"]{
+    padding: 9px 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 30px;
+}
+.container input[type = "submit"]:hover{
+ background-color: rgba(0, 136, 169, 0.8);
+}
+.prodtw{
+    width: 70%;
+    height: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.ccccsscc{
+    background-color: #f5f5f5;
+    width: 80%;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.innea{
+    background-color: #f5f5f5;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.nace{
+    background-color: #f5f5f5;
+    margin: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.czycxtk{
+    background-color: #f5f5f5;
+    display:flex;
+    
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.shti{
+    background-color: #f5f5f5;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fm{
+    width: 80%;
+    background-color: #f5f5f5;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.kol{
+    background-color: #f5f5f5;
+    margin: 10px;
+}
+.dwaac{
+    background-color: #f5f5f5;
+    margin: 10px;
+    width: 20%;
+}
+.usuwe{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.usu{
+    background-color: #f5f5f5;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.usub{
+    background-color: #f5f5f5;
+}
+.usua{
+    margin-right:10px;
+    background-color: #f5f5f5;
+}
+.containeer{
+    margin-bottom: 10px;
+}
+.containeer input[type = "submit"]{
+    padding: 9px 25px; 
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+}
+.containeer input[type = "submit"]:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.containeer input[type = "number"]{
+    background-color: #f5f5f5;
+    border: none;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 0px;
+    transition: all 0.3s ease 0s;
+}
+.containeer input[type = "number"]:hover{
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.form{
+    background-color: #f5f5f5;
+}
+.suud{
+   opacity: 0;
+}
+.dwaaa{
+    width: 80%;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.dwaaaa{
+    width: 70%; 
+    display: flex;
+}
+.wartttsc{
+    
+    width: 20%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+.wyszukiwanie{
+    width: auto;
+    display:flex;
+}
+.wyszukiwcnie{
+    float: right;
+    width: 90%;
+    display:flex;
+    justify-content: flex-end;
+   
+}.floata{
+    float: right;
+}
+.floatl{
+    float: left;
+}
+#wssz{
+    width: auto;
+}
+#kup{
+    margin-left: 10px;
+}
+.wyszukiwanie input[type="text"]{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 30px;
+}
+::placeholder{
+    color: black;
+}
+.filtr{
+    width: 40%;
+    display:flex;
+}
+select{
+    padding: 7px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    outline: none;
+    margin-right: 5px;
+    height: 30px;
+   }
+option{
+    color: white;
+}
+.wybma{
+    width: auto;
+    height: 100%;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+#ffiltr{
+    width: auto;
+    display:flex;
+}
+.nzawa{
+    width:100%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #191a1b;
+}
+#dokosza{
+    width: auto;
+    background-color: #f5f5f5;
+}
+.cenaa{
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #191a1b;
+}
+.trzi{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+    
+}
+.rdate{
+    width: 40%;
+    background-color: #f5f5f5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+#czenter{
+    background-color: #f5f5f5;
+}
+.szub{
+    margin-top: 80px;
+}
+.containarar{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+.containarar input[type = "submit"]{
+    padding: 9px 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 30px;
+}
+.containarar input[type = "submit"]:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.komentarze{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.komentarz{
+    text-transform: none;
+    width: 100%;
+    background-color: #f5f5f5;
+    height: auto;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #191a1b;
+    text-decoration: none;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+}
+.cidwa{
+    background-color: #f5f5f5;
+    width: 68%;
+}
+.uszys{
+    background-color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 700;
+}
+.opss{
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+.dater{
+    background-color: #f5f5f5;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.ussssssuu{
+    background-color: #f5f5f5;
+    width: auto;
+    margin-right: 5px;
+}
+.dodaawa{ 
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-transform: uppercase;
+}
+.foodter{
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    background-color: rgb(6, 105, 129);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 8px;
+}
+footer{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: right;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    color: #edf0f1;
+    margin-left: 10px;
+}
+.komentarze input[type = "text"]{
+ padding: 9px 25px;
+background-color: rgba(0, 136, 169, 1);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+height: auto;
+}
+.udaloosiem{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.ossna{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.ossna a{
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(251, 232, 232);
+
+}
+.ossna a:hover{
+    color: rgb(199, 199, 199);
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-60px);
+  }
+  
+  .dropdown-content a {
+    float: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    color:#0089a9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.Zaalggaawa {
+    background-color: #f5f5f5;
+     text-transform: uppercase;
+     font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+    margin-top: 80px;
+}
+.Zaalggaawa a{
+    background-color: #f5f5f5;
+    color: black;
+     text-transform: uppercase;
+     transition: all 0.3s ease 0s;
+     font-size: 19px;
+     font-weight: 700;
+     font-family: "Montserrat", sans-serif;
+}
+.Zaalggaawa:hover a{
+    color: #05a3c7;
+}
+.Zaalggaaw{
+    margin-top: 20px;
+    
+}
+.Zaalggaaw a{
+    color: wrgb(187, 187, 187);
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+.Zaalggaaw:hover a{
+    color: rgb(168, 168, 168);
+}
+#cososoos{
+    background-color: #f5f5f5;
+}
+h2 {
+    width: 100%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.fdp{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 160px;
+}
+.errorr{
+    color: rgb(238, 45, 45);
+    font-family: "Montserrat", sans-serif;
+}
+.slider{
+    width: 75%;
+    height: 500px;
+    background-color: white;
+    background-image: url("slider/1.jpg");
+    background-repeat: no-repeat; 
+     background-size: 100% 100%;
+>>>>>>> 27d91b1dcee6c4b4a801fbba75509bb1b1965e87
 }
