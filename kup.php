@@ -29,11 +29,8 @@ $mail = new PHPMailer\PHPMailer\PHPMailer();
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl';
-$mail->Host = 's156.cyber-folks.pl';
-$mail->Port = '465';
 $mail->IsHTML(true); 
 $mail->Username = 'admin@mix-kicks.pl';
-$mail->Password = '3050HotTickFick300!';
 $mail->SetFrom('no-reply@mix-kicks.pl');
 $mail->Subject = 'Zamowienie';
 
@@ -41,9 +38,6 @@ $mail->Body = $body;
 $mail->Body .= $body2;
 
 $mail->AddAddress($_COOKIE['email']);
-
-
-
 
 if($mail->Send()==true){
 
