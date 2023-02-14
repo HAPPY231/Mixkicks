@@ -4,7 +4,7 @@
 
     $user = "hp_30915138";
 
-    $password = "3050HotTickFick300!";
+    $password = "";
 
     $db_name = "hp_30915138_mixkicks";
 
